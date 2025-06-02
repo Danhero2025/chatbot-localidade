@@ -8,7 +8,7 @@ st.title("🩺 Consulta de Prestadores Hero Seguros")
 st.markdown("Digite uma **cidade**, **estado** ou **país** abaixo para verificar se temos prestadores cadastrados (exceto Telemedicina e apenas Brasil).")
 
 # Leitura direta do Excel presente no repositório
-data_file_path = "BASE PARA CHATBOT.xlsx"
+data_file_path = "BASE PARA CHATBOT .xlsx"
 
 try:
     df = pd.read_excel(data_file_path, sheet_name="Assistências e Valores")
